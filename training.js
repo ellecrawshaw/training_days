@@ -43,3 +43,17 @@ const days = getTrainingDays(event);
 
 logEvent(name, event);
 logTime(name, days);
+
+const event2 = getRandEvent();
+const days2 = getTrainingDays(event2);
+const name2 = Warren;
+
+logEvent(name2, event2);
+logTime(name2, days2);
+
+const event3 = getRandEvent();
+const days3 = getTrainingDays(event3);
+const name3 = Jo;
+
+logEvent(name3, event3);
+logTime(name3, days3);
